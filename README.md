@@ -5,11 +5,13 @@ All the files I have from Introduction to Java, Data Structures, and Software I
 <hr>
 
 <b>Generalities</b> 
-<hr>
+
 The fundamental principle that determines the scope of acceptable collaboration is that it is never permissible to pass off as your own the work of someone else. If you have doubts about what is appropriate, ask your instructor for a ruling in advance. Violations are surprisingly easy to detect and they are dealt with according to OSU rules on academic misconduct. All students are expected to complete assignments while observing Ohio State's standards for academic integrity. It is the responsibility of the Committee on Academic Misconduct to investigate or establish procedures for the investigation of all reported cases of student academic misconduct. The term "academic misconduct" includes all forms of student academic misconduct wherever committed; illustrated by, but not limited to, cases of plagiarism and dishonest practices in connection with examinations. As obligated by university rules (Faculty Rule 3335-5-487), the instructor must report all instances of alleged academic misconduct to the committee. For additional information, see the Code of Student Conduct (http://studentaffairs.osu.edu/resource_csc.asp) and Ohio State's COAM Home Page and FAQ (http://oaa.osu.edu/coam.html).
 
-<b>Specifics</b>
 <hr>
+
+<b>Specifics</b>
+
 The specific policy on collaboration with others in CSE 2221 and CSE 2231 is fairly liberal — but please don't be tempted to test its limits. Here are some ground rules about the "fringe area":
 
 Except on exams, you may — in fact, you are are encouraged to — talk with others about general problem and solution ideas, software design, program logic, etc. For example, you may ask the lab consultants or others — especially others taking the class — for assistance with lab computers, Eclipse, and Java, including interpreting the meanings of error messages as well as providing general advice about what causes them, as long as it falls well short of fixing them for you. You may not turn in an assignment solution from a previous offering of the course, even if you have previously taken the course, you did the assignment yourself the first time, and you think it might save you some time to turn in an old solution. The default situation is that an assignment is meant to be done by an individual working alone. For such an assignment:

@@ -1,5 +1,5 @@
 # Java-Practice
-All the files I have from Introduction to Java, Data Structures, and Software I
+These are the Java files I have coded for my Introduction to Java, Data Structures, and Software I classes.
 
 <b> The Ohio State University Cooperation, Collaboration, and Professional Ethics Statement </b>
 <hr>

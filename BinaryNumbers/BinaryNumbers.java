@@ -115,13 +115,7 @@ public class BinaryNumbers {
      * @return true if the String value contains a binary value, false otherwise
      */
     public static boolean validBinary(String value) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
-    	
+       
     	if (value == null) {
             return false;
         }
@@ -134,8 +128,7 @@ public class BinaryNumbers {
         int i = 0;
         if (value.charAt(0) == '-') {
             
-        }
-        
+        }       
       
         for (; i < length; i++) {
             char c = value.charAt(i);
@@ -162,11 +155,6 @@ public class BinaryNumbers {
      * @return The base 10 integer value of that binary in the String
      */
     public static int binaryToInt(String value) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
     	
     	//create an array with strings's length
     			int[] newGuess = new int[value.length()];
@@ -205,12 +193,7 @@ public class BinaryNumbers {
      * @return A String containing the binary representation of value
      */
     public static String intToBinary(int value) {
-        // TODO - complete this method
 
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
     	String appendvalue = "";
     	   
 

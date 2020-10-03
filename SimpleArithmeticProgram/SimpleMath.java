@@ -1,5 +1,6 @@
 /**
- * ENTER A DESCRIPTION OF YOUR PROJECT HERE!
+ * A very basic program that takes two integers and 
+ * and prints the answer to the arithmetic
  * @author KATRINA BUSGANO
  * @version JANUARY 18, 2020
  **/
@@ -8,12 +9,10 @@ import java.util.Scanner;
 public class SimpleMath {
 
     public static void main(String[] args) {
-        // TO DO: Enter your code here between the curly braces
     	Scanner scnr = new Scanner(System.in);
-        int firstNumber;   // First Number
-        int secondNumber; // Second Number
+        int firstNumber;   
+        int secondNumber; 
         
-
         System.out.print("Enter the first number: ");
         firstNumber = scnr.nextInt();
 

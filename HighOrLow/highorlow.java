@@ -6,7 +6,7 @@ package highorlowagainstarandomnumber;
  * If the user's number is larger, it should report "Your number is larger!".  
  * Otherwise it should report "Your number was not larger!"  
  * The program must prompt for the numbers as int values. 
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version 1-28-2020
  */
 import java.util.Scanner;

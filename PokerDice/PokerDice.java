@@ -72,8 +72,7 @@ public class PokerDice {
     	int reroll = Integer.parseInt(inScanner.nextLine()); 
     	
     	//Indexes: 0-4, error outside this scope
-    	//-1 to keep current
-    	
+    	//-1 to keep current	
     	
     	while (reroll != -1) {
     		
@@ -114,8 +113,7 @@ public class PokerDice {
     		Arrays.sort(dice); 
     		System.out.print(Arrays.toString(dice));
     		return dice;
-      	}
-    	
+      	}   	
    
     /**
      * Prompts the user with a message passed into method and returns true if
@@ -143,13 +141,11 @@ public class PokerDice {
     	
     	while (response != 'Y' && response != 'y' && response != 'N' && response != 'n') {
 			
-			System.out.println("ERROR! Only 'Y' and 'N' allowed as input!");
-	        
+		System.out.println("ERROR! Only 'Y' and 'N' allowed as input!");        
 	        System.out.print(msg);
 	        response = inScanner.nextLine().charAt(0);
-			}
+	}
     	
-
     	if (response == 'Y' || response ==  'y') {
     		return true;
     	}
@@ -243,12 +239,6 @@ public class PokerDice {
      * @return true if value is in array, otherwise false
      */
     public static boolean contains(int[] array, int value) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-
     	
     	for (int i = 0; i < array.length; i++) {
             if (array[i] == value)
@@ -256,8 +246,7 @@ public class PokerDice {
         }
         return false;
     }
-
-
+	
     /**
      * Given a SORTED array in increasing order, returns true if the numbers
      * form an unbroken sequence, false otherwise. For example, [1,2,3,4,5]
@@ -269,13 +258,8 @@ public class PokerDice {
      *         otherwise
      */
     public static boolean inSequence(int[] dice) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
-    	 		Arrays.sort(dice); 
+      
+    	Arrays.sort(dice); 
     	
     	for (int i = 0; i < dice.length - 1; i++) {
             if (dice[i] > dice[i + 1] || dice[i] == dice[i+1])
@@ -293,13 +277,7 @@ public class PokerDice {
      *            die rolls to count
      * @return array holding counts of each value in the array dice
      */
-    public static int[] getCounts(int[] dice) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
+    public static int[] getCounts(int[] dice) {    	
 
     	int[] counts = new int[6];
     	for (int i = 0; i < dice.length; i++) {
@@ -318,8 +296,6 @@ public class PokerDice {
                counts[5]++;
            }
        }
-   
-    	//System.out.print(Arrays.toString(counts));
 	
     	return counts;
     }
@@ -372,8 +348,7 @@ public class PokerDice {
         
         }
         
-        System.out.print("Goodbye!");
-      	
+        System.out.print("Goodbye!");     	
 
     }
 

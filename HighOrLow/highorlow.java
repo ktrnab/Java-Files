@@ -1,6 +1,6 @@
 package highorlowagainstarandomnumber;
 /**
- * Brainstorm how to write a program that will prompt the user for a random number seed 
+ * A program that will prompt the user for a random number seed 
  * and then generate a random number (see below for more details on this).  
  * It should then ask the user for a number and compare it to the random number it generated.  
  * If the user's number is larger, it should report "Your number is larger!".  
@@ -44,5 +44,3 @@ public class highorlow {
 	        keyboard.close();
 	    }
 	}
-
-

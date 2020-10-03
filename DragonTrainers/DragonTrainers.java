@@ -13,7 +13,7 @@ public class DragonTrainers {
 
     /**
      * Constant array to hold the types of the dragon in order. 0 - Plant, 1 -
-     * Water, 2 - Fire. Make sure your code does not change these values!
+     * Water, 2 - Fire. 
      */
     private static final String[] DRAGONS = { "Plant", "Water", "Fire" };
 
@@ -29,11 +29,6 @@ public class DragonTrainers {
      * @return - an integer value strictly larger than zero.
      */
     public static int getNumberOfMatches(Scanner input) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
     	
     	System.out.print("How many matches will we play? ");
     	int num = Integer.parseInt(input.nextLine()); 
@@ -61,11 +56,6 @@ public class DragonTrainers {
      * @return A non-empty String entered by the user
      */
     public static String promptForDragon(Scanner input) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
     	
     	String Dragonletter;
   
@@ -96,12 +86,6 @@ public class DragonTrainers {
      *         otherwise
      */
     public static int dragonToNumber(char dragon) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
     	int score = 0;
     	
     	if (dragon == 'P') {
@@ -119,9 +103,7 @@ public class DragonTrainers {
     	if (dragon != 'P' && dragon != 'W' && dragon != 'F') {
     		score = -1;
     	}
-    	
-    	
-    	
+    	  	
         return score;
     }
 
@@ -139,12 +121,6 @@ public class DragonTrainers {
      * @return 1 if the player wins, -1 if the computer wins, 0 if they tie
      */
     public static int determineWinner(int player, int cpu) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
     	int returnscore = 0;
     	
     	if (player == cpu) {
@@ -180,8 +156,7 @@ public class DragonTrainers {
     	if (player == 1 && cpu == 0 ) {
     		returnscore = -1;
     	}
-    	
-    	
+    	   	
         return returnscore;
     }
 
@@ -237,13 +212,7 @@ public class DragonTrainers {
     	//plant and water
     	if (player == 1 && cpu == 0 ) {
     		System.out.println(DRAGONS[cpu] + " defeats " + DRAGONS[player] + " - you lose!");
-    	}
-    	
-    	
-    	
-
-    	
-   
+    	} 
     	
     }
 
@@ -296,8 +265,6 @@ public class DragonTrainers {
        
         // Prompt for number of matches to play
         int totalMatches = getNumberOfMatches(keyboard);
-        // kmlb System.out.print(totalMatches);
-       
         
         // Start with wins, losses and ties at 0.
         // Repeat until all matches have been played (use the sum of the

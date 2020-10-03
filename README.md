@@ -8,7 +8,7 @@
 
 The fundamental principle that determines the scope of acceptable collaboration is that it is never permissible to pass off as your own the work of someone else. If you have doubts about what is appropriate, ask your instructor for a ruling in advance. Violations are surprisingly easy to detect and they are dealt with according to OSU rules on academic misconduct. All students are expected to complete assignments while observing Ohio State's standards for academic integrity. It is the responsibility of the Committee on Academic Misconduct to investigate or establish procedures for the investigation of all reported cases of student academic misconduct. The term "academic misconduct" includes all forms of student academic misconduct wherever committed; illustrated by, but not limited to, cases of plagiarism and dishonest practices in connection with examinations. As obligated by university rules (Faculty Rule 3335-5-487), the instructor must report all instances of alleged academic misconduct to the committee. For additional information, see the Code of Student Conduct (http://studentaffairs.osu.edu/resource_csc.asp) and Ohio State's COAM Home Page and FAQ (http://oaa.osu.edu/coam.html).
 </li>
-<hr>
+
 <li>
 <b>Specifics</b>
 

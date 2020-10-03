@@ -3,6 +3,7 @@
 
 <hr>
 <b> The Ohio State University Cooperation, Collaboration, and Professional Ethics Statement: </b>
+
 <ul>
 <li><b>Generalities</b> 
 

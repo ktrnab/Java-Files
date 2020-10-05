@@ -4,7 +4,7 @@
  * players have been entered, the program will display a bar chart with 
  * each of their scores scaled as a percentage of the maximum score entered.
  *
- * @author Katrina Busgano
+ * @author Katrina B
  *
  */
 

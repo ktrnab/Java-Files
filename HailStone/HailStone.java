@@ -3,7 +3,7 @@
  * This a program that will  prompt the user to enter a positive integer.  
  * This program must then use a loop to compute a Hailstone Series, 
  * using that integer as a start point. 
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version 20200211
  * 
  */

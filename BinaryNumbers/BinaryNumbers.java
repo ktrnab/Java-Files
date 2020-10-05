@@ -4,7 +4,7 @@ package binary;
  * Converting from Decimal to Binary: The algorithm converts from base 10 to base 2 is
  * Converting from Binary to Decimal: The algorithm convert from a binary to a decimal representation
  * the code will take into account the place of each digit in the binary string.
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version March 21, 2020
  */
 import java.util.Scanner;

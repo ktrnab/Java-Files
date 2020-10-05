@@ -1,7 +1,7 @@
 /**
  * A very basic program that takes two integers and 
  * and prints the answer to the arithmetic
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version JANUARY 18, 2020
  **/
 import java.util.Scanner;

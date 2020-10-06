@@ -3,7 +3,7 @@
  * ENTER NUMBER OF MATCHES AND 
  * SELECT A DRAGON THAT WILL BEAT
  * THE COMPUTER
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version MARCH 1 2020
  */
 import java.util.Random;

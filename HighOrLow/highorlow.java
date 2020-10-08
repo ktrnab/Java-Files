@@ -29,18 +29,15 @@ public class highorlow {
 	        
 	        System.out.println ("My number was: " + computerNum);
 	        
-	        
 	        //If the user's number is larger, it should report "Your number is larger!". 
 	        //Oherwise it should report "Your number was not larger!" 
 	        if (guess > computerNum) {
 	        	System.out.print("Your number was larger!");
-	        }
-	        
+	        }	        
 	        else  {
 	        	System.out.print("Your number was not larger!");
 	        }
-	        
-	        
+	        	        
 	        keyboard.close();
 	    }
 	}

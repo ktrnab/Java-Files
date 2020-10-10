@@ -15,7 +15,7 @@ import java.util.Random;
 public class highorlow {
 	 public static void main(String[] args) {
 	      
-		 Scanner keyboard = new Scanner(System.in);
+		Scanner keyboard = new Scanner(System.in);
 	        System.out.print("Enter a random seed: ");
 	        int seed = keyboard.nextInt();
 	        
@@ -36,8 +36,7 @@ public class highorlow {
 	        }	        
 	        else  {
 	        	System.out.print("Your number was not larger!");
-	        }
-	        	        
+	        }	        	        
 	        keyboard.close();
 	    }
 	}

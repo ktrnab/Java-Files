@@ -49,42 +49,30 @@ public class GuessANumber {
 	        	    counter ++;
 	        	    System.out.println("Your guess was too high - try again.");
 	           }
-	        
-	         System.out.println("");
-	         System.out.print("Enter a guess between 1 and 200: ");
-		 guess = keyboard.nextInt();	     
+       	           System.out.println("");
+	           System.out.print("Enter a guess between 1 and 200: ");
+		   guess = keyboard.nextInt();	     
 	        	
-	        }
-		     
-		    System.out.println("Congratulations!  Your guess was correct!");	    
-		    System.out.println("");
-		    System.out.println("I had chosen " + computerNum + " as the target number.");
-		    System.out.println("You guessed it in " + counter + " tries.");
+	       }	     
+		   System.out.println("Congratulations!  Your guess was correct!");	    
+		   System.out.println("");
+		   System.out.println("I had chosen " + computerNum + " as the target number.");
+		   System.out.println("You guessed it in " + counter + " tries.");
 		    
-		    if (counter == 1) {
+		   if (counter == 1) {
 		    	System.out.println("That was impossible!");
 			    
-		    } else if (counter >= 2 && counter <= 3) {
+		   } else if (counter >= 2 && counter <= 3) {
 		    	System.out.println("You're pretty lucky!");
-		    	
-		    } else if (counter >= 4 && counter <= 7) {
-		    	
+		   } else if (counter >= 4 && counter <= 7) {
 		    	System.out.println("Not bad, not bad...");
-		    	
-		    }
-		    	
-		    	
-		 else if (counter == 8) {
+		   } else if (counter == 8) {
 		    	System.out.println("That was not very impressive.");
-		    	
-		    }
-		 else if (counter > 8 && counter <= 10) {
+		   } else if (counter > 8 && counter <= 10) {
 		    	System.out.println("Are you having any fun at all?");
-		    }
-		 else if (counter >=11) {
+		   } else if (counter >=11) {
 		    	System.out.println("Maybe you should play something else.");
-		    	
-		    }    
+		   }    
 	       	        
 	        keyboard.close();
 	    }

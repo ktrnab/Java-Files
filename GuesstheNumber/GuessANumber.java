@@ -35,28 +35,20 @@ public class GuessANumber {
 	        //Outputs
 	        while (guess != computerNum) {
 	           if (guess < 0) {
-	        		counter++;
-	        		System.out.println("Your guess is out of range.  Pick a number between 1 and 200.");
+	            	    counter++;
+	        	    System.out.println("Your guess is out of range.  Pick a number between 1 and 200.");
 	        	    System.out.println("Your guess was too low - try again.");
-	           }
-	        	
-	        	
-	        	else if (guess > 200) {
-	        		counter ++;
+	           } else if (guess > 200) {
+	        	    counter ++;
 	        	    System.out.println("Your guess is out of range.  Pick a number between 1 and 200.");
 	        	    System.out.println("Your guess was too high - try again.");
-	        	}
-	        	
-	        	else if (guess <= 187 ) {
-	        		counter ++;
-	        		System.out.println("Your guess was too low - try again.");
-	        	}
-	        	
-	        	else if (guess > 100 && guess <= 200) {
-	        		counter ++;
-	        		System.out.println("Your guess was too high - try again.");
-	        		
-	        	}
+	           } else if (guess <= 187 ) {
+	        	    counter ++;
+	        	    System.out.println("Your guess was too low - try again.");
+	           } else if (guess > 100 && guess <= 200) {
+	        	    counter ++;
+	        	    System.out.println("Your guess was too high - try again.");
+	           }
 	        
 	         System.out.println("");
 	         System.out.print("Enter a guess between 1 and 200: ");

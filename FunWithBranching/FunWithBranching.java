@@ -1,9 +1,11 @@
 import java.util.Scanner;
 import java.util.Random;
-/*
+/* The program will generate two random integers between 1 and 20 
+ * and then ask a series of math questions. Each question will be evaluated 
+ * as to whether it is the right or wrong answer. 
+ * In the end a final score should be reported for the user.
  * @author KATRINA B
  */
-
 
 public class FunWithBranching {
 	public static void main(String[] args) {

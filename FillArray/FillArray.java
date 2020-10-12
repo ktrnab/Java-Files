@@ -1,9 +1,9 @@
 /**
- * brainstorm a program that will ask the user for a number of digits to be stored.  
+ * Brainstorm a program that will ask the user for a number of digits to be stored.  
  * The program should then create an array of that size and then prompt the user 
  * for numbers to fill each position in the array. When all of the positions 
  * are filled, display the contents of the array to the user.
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version FEBRUARY 17 2020
  */
 

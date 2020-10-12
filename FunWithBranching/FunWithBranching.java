@@ -1,5 +1,8 @@
 import java.util.Scanner;
 import java.util.Random;
+/*
+ * @author KATRINA B
+ */
 
 
 public class FunWithBranching {

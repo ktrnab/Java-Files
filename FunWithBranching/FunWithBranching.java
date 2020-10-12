@@ -1,5 +1,3 @@
-import java.util.Scanner;
-import java.util.Random;
 /* The program will generate two random integers between 1 and 20 
  * and then ask a series of math questions. Each question will be evaluated 
  * as to whether it is the right or wrong answer. 
@@ -7,14 +5,15 @@ import java.util.Random;
  * @author KATRINA B
  */
 
+import java.util.Scanner;
+import java.util.Random;
+
 public class FunWithBranching {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 	     Scanner keyboard = new Scanner(System.in);
 	     System.out.print("Enter a random number seed: ");
 	     int seed = Integer.parseInt(keyboard.nextLine());
-	     
-	    
+	    	    
 	     System.out.print("Enter your name: ");
 	     String name = keyboard.nextLine();
 	     System.out.println("Hello " + name + "!");
@@ -47,8 +46,7 @@ public class FunWithBranching {
 	        	scoreTrack++;
 	     } else  {
 	        	System.out.println("Wrong!");
-	        	System.out.println("The correct answer is: " + (computerNum1 - computerNum2) );
-	        	
+	        	System.out.println("The correct answer is: " + (computerNum1 - computerNum2) );     	
 	     }
 
 	     // Multiplication
@@ -99,5 +97,4 @@ public class FunWithBranching {
 	     System.out.println("That's " + percentage + "%");
 		
 	}
-
 }

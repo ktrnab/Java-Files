@@ -23,14 +23,11 @@ public class FillArray {
 	     
 	      //test if 0
 	      while (elements !=0 ) {
-	    	   
-	    	   //test if integer
+	    	  //test if integer
 	    	  
 	    	if  (elements < 0) {
 	    		   System.out.println("ERROR! You must enter a non-negative number of digits!");  
-	    	}
-	    	   
-	        else { 
+	    	} else { 
 	        	
 	        	 //declare array size
 	  	      	int[]userarray = new int[elements];

@@ -7,7 +7,6 @@
  * @version FEBRUARY 17 2020
  */
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -21,9 +20,7 @@ public class FillArray {
 	      //prompt user for number
 	      System.out.print("Please enter the number of digits to be stored: ");
 	      elements = scnr.nextInt();
-	      
-	   
-	      
+	     
 	      //test if 0
 	      while (elements !=0 ) {
 	    	   
@@ -57,9 +54,6 @@ public class FillArray {
 	    		         System.out.print(userarray[i] + " " );
 	    		   }
 	        }
-	    	
-	    		   
-	        
 	    		   
 	    		   //loop again
 	    		   System.out.println("");

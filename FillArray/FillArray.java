@@ -60,7 +60,6 @@ public class FillArray {
 	 	    	  
 	 	       
 	      	}
-
 	      
 	    System.out.print("No digits to store? Goodbye!");
 	    scnr.close();  

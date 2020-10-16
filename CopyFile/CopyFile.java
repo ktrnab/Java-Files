@@ -1,12 +1,12 @@
-	/**
-	 * Program to copy one file into another, using command line arguments
-	 *
-	 * @author KATRINA B
-	 * @version MARCH 8, 2020
-	 *
-	 */
-	import java.io.File;
-	import java.io.FileNotFoundException;
+/**
+* Program to copy one file into another, using command line arguments
+*
+* @author KATRINA B
+* @version MARCH 8, 2020
+*
+*/
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 	

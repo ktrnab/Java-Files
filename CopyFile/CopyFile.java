@@ -1,7 +1,7 @@
 	/**
 	 * Program to copy one file into another, using command line arguments
 	 *
-	 * @author KATRINA BUSGANO
+	 * @author KATRINA B
 	 * @version MARCH 8, 2020
 	 *
 	 */

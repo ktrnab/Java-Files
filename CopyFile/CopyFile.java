@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 	
 
-	public class CopyFile {
+public class CopyFile {
 
 	    /**
 	     * Returns the reverse of the input String inString.
@@ -74,10 +74,7 @@ import java.util.Scanner;
 	        }
 	        
 	    keyboard.close();
-	    
-	  
-	   
-
+	 
 	    }
 
 	}

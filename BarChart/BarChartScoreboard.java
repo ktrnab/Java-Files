@@ -12,7 +12,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BarChartScoreboard {
-
     //max score
     public static int max(int[] t) {
         int maximum = t[0];   // start with the first value
@@ -100,18 +99,15 @@ public class BarChartScoreboard {
 
                     for(int r = 0; r<sub; r++) {
                         System.out.print(" ");
-
-                    }
+		    }
                 }
 
                 int stars = (scorearray[j]*50)/maximum;
                 for (int i = 0; i<stars; i++) {
                     System.out.print("*");
                 }
-
                 System.out.println();
             }
-
         } else {
             //only if elements is 0 
             System.out.println("No players to display?  Goodbye!");

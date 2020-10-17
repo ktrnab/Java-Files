@@ -76,13 +76,7 @@ public class BinaryNumbers {
      *         otherwise
      */
     public static boolean validInteger(String value) {
-        // TODO - complete this method
-
-        // TODO - the following line is only here to allow this program to
-        //  compile.  Replace it and remove this comment when you complete
-        //  this method.
-    	
-    
+        
     	if (value == null) {
             return false;
         }
@@ -195,17 +189,12 @@ public class BinaryNumbers {
     public static String intToBinary(int value) {
 
     	String appendvalue = "";
-    	   
-
+    
     	while(value!=0) {
-    		
     		int append = value%2;
     		value = value/2;
     		appendvalue = append + appendvalue;
-
     	}
-    	
-    	
         return appendvalue;
     }
     

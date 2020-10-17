@@ -112,9 +112,7 @@ public class BarChartScoreboard {
                 System.out.println();
             }
 
-        } 
-        else {
-
+        } else {
             //only if elements is 0 
             System.out.println("No players to display?  Goodbye!");
         }

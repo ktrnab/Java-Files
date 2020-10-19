@@ -11,7 +11,7 @@
  *      * Four of a kind
  *      * Five of a kind
  *
- * @author KATRINA BUSGANO
+ * @author KATRINA B
  * @version APRIL 3, 2020
  *
  */

@@ -56,7 +56,7 @@ public class funwith {
         //Your new string is
         System.out.println(longString); 
        
-        //Goodbye
+        //Print Goodbye
         System.out.println("Goodbye!");
        
     }

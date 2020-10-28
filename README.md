@@ -1,5 +1,5 @@
-# Java Files
-<i>These are the Java files I have coded for Introduction to Java, Java Data Structures, and Software I. </i>
+# Introduction to Java 
+<i>These are the Java files I have coded for Introduction to Java </i>
 
 <hr>
 <b> The Ohio State University Cooperation, Collaboration, and Professional Ethics Statement: </b>
